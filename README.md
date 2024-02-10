@@ -1,5 +1,5 @@
 ## LLM-summary-model
-* The notebook file can run in AWS Sagemaker to fine-tune a sequence-to-sequence model for summarizing dialogs.
+* The Jupyter Notebook file can run in AWS Sagemaker to fine-tune a sequence-to-sequence model for summarizing dialogs.
 * The Base model is google/flan-t5-base from Huggingface. The training dataset is knkarthick/dialogsum from Huggingface.
 * I used PEFT(Lora) to fine-tune the base model.
 * I use RLHF(PPO) to reduce the generated text's hate speech (Detoxify). I use a small pertained model facebook/roberta-hate-speech-dynabench-r4-target as the reward model.

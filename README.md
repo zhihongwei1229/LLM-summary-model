@@ -11,4 +11,4 @@
 
 ## Next step
 * I will add a prompt engineer module to improve performance. Such as templates, few-shot Inference, etc.
-* I will create an app by Flask to utilize this summary model.
+* I will create an app by Flask and deploy it to AWS to utilize this summary model.
